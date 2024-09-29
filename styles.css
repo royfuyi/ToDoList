@@ -1,0 +1,80 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3d3d3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container */
+.container {
+    background-color: white;
+    padding: 20px;
+    /* Add missing border-radius property */
+    border-radius: 10px;
+    /* Add missing box-shadow property */
+    box-shadow: 0px 0px 10px #ffafaf;
+    width: 400px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    /* Change the colour to something more appropriate */
+    color: black;
+    /* Add missing margin-bottom */
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 75%;
+    /* Add padding */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    /* Add padding */
+    padding: 10px;
+    /* Add background-colour for the button */
+    background-color: #ffafaf;
+    color: white;
+    border: none;
+    /* Add border-radius */
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    /* Add background-colour for the button when hovered over */
+    background-color: #dc9595;
+}
+
+/* Task list */
+ul { 
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+/*little guy*/
+#lilGuy{
+    width: 60px;
+    height: 60px;
+}
