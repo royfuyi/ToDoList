@@ -1,0 +1,1 @@
+NOTES: Currently, the website can only be hosted locally and to run the server, type "node server.js" in the terminal while in the ToDoList folder directory.
